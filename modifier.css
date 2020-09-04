@@ -1,0 +1,68 @@
+.fondmenu{
+	width: 112%;
+	height: 100px;
+	background-color: blue;
+
+}
+.menu{
+	display: table;
+
+margin-right: 200px;
+margin-left:200px;
+}
+.menu li{
+	display: table-cell;
+	width: 200px;
+	padding-left: 0px;
+	padding-top:35px;  
+	font-family: helvetica;
+	font-size: 30px;
+
+}
+.menu img{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	width: 150px;
+	height: 100px;
+}
+.menu a{
+color: white;
+}
+.fond{
+	position: fixed;
+	left: 285px;
+}
+.RDC{
+position: fixed;
+top: 140px;
+left: 150px;
+}
+.box1{
+	position: fixed;
+	top: 270px;
+	left: 100px;
+}
+
+.Etage1{
+	position: fixed;
+	top: 140px;
+	left: 500px;
+}
+.box2{
+	position: fixed;
+	top: 270px;
+	left: 460px;
+}
+
+
+.Etage2{
+	position: fixed;
+	top: 140px;
+	left: 833px;
+}
+.box3{
+position: fixed;
+top: 270px;
+left: 799px;
+}

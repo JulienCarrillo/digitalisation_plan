@@ -1,0 +1,48 @@
+body{
+margin: 0px;
+padding: 0px;
+background:#34495e; 
+}
+
+.Inscription{
+	width: 20%;
+	border-radius: 45px;
+	padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+
+
+.Inscription h1{
+color: white;
+text-transform: uppercase;
+}
+
+.Inscritpion a{
+color: white;
+}
+
+.Inscription input[type = "text"], .Inscription input[type ="password"]{
+	border: 0;
+	background: none;
+	display: block;/*pour que les ellement saute une ligne*/
+	margin: 40px auto;
+	text-align: center;
+	border: 2px solid cyan;
+	padding: 20px 20px;/*espace dans les blocks cyan (id mdp)*/
+	width: 60%;
+	outline: none;
+	color: white;/*couleur du text clavier*/
+	border-radius: 30px;
+	transition: 0.25s;
+}
+
+.Inscription input[type="text"]:focus, .Inscription input[type="password"]:focus{
+	width: 280px;
+	border-color: green;
+}
